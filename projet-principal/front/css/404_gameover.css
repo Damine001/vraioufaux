@@ -1,0 +1,48 @@
+@import url(../fonts/fonts.css);
+
+* {
+	font-family: Pixels;
+	font-size: 1.2em;
+}
+
+div#main {
+	width: fit-content;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	color: #5a2e2e
+}
+
+@keyframes hide {
+	from {
+		opacity: 1;
+		display: block;
+	}
+	99% {
+		opacity: 1;
+		display: block;
+	}
+	100% {
+		opacity: 0;
+		display: none;
+	}
+}
+
+#loader {
+	opacity: 0;
+	background: url(../img/loader_reverse.gif) repeat;
+	animation: hide;
+	animation-duration: 2s;
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: 99;
+	filter: brightness(0.5);
+}

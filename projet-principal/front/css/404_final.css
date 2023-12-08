@@ -1,0 +1,138 @@
+@import "../font/font2.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+
+    background-color:  #171946;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*background-image: url("img/bg2.jpg");
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+/*------------------------------------------*/
+
+.block1
+{
+    position: absolute;
+    top: 10%;
+    padding: 30px;
+    background: rgba(70, 73, 149,  0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 0;
+}
+
+.title
+{
+
+    font-family: Pixels2;
+    display: block;
+
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 42px rgb(   255, 255, 255 ),
+    0 0 77px rgb(  255, 255, 255 ),
+    0 0 100px rgb(  255, 255, 255 );
+    animation: lumiere 1s infinite linear;
+
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 5em;
+    z-index: 1;
+
+}
+
+.title span
+{
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.error
+{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+
+    color: #fff;
+    font-size: 25px;
+}
+
+/*-----------------------------------------*/
+
+/*Animations CSS*/
+
+
+/*Glowing*/
+
+.title > span {
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0%, 100% {
+      text-shadow: 0 0 10px #0652DD, 0 0 50px #0652DD, 0 0 100px #0652DD;
+    }
+    
+    10%, 90% {
+      color: #394294;
+      text-shadow: none;
+    }
+}
+
+.title > span:nth-child(2) {
+	animation-delay: 0.25s;
+}
+
+.title > span:nth-child(3) {
+	animation-delay: 0.5s;
+}
+
+.title > span:nth-child(4) {
+	animation-delay: 0.75s;
+}
+
+.title > span:nth-child(5) {
+	animation-delay: 1s;
+}
+
+.title > span:nth-child(6) {
+	animation-delay: 1.25s;
+}
+
+/*Tetris Text (pas optimisé mdr)*/
+
+.one
+{
+    color: #5d00ff;
+}
+
+.two
+{
+    color: #0009ff;
+}
+
+.three
+{
+    color: #00d9ff;
+}

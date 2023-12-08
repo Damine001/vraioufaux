@@ -1,0 +1,88 @@
+@font-face {
+	font-family: Pixels;
+	src: url(Silkscreen-Bold.ttf);
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	src: url("./AvenirLTProBook.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 900;
+	src: url("./AvenirLTProBlack.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 900;
+	font-style: italic;
+	src: url("./AvenirLTProBlackOblique.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 800;
+	src: url("./AvenirLTProHeavy.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 800;
+	font-style: italic;
+	src: url("./AvenirLTProHeavyOblique.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 600;
+	src: url("./AvenirLTProMedium.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 600;
+	font-style: italic;
+	src: url("./AvenirLTProMediumOblique.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 500;
+	src: url("./AvenirLTProRoman.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 500;
+	font-style: italic;
+	src: url("./AvenirLTProOblique.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 400;
+	src: url("./AvenirLTProBook.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 400;
+	font-style: italic;
+	src: url("./AvenirLTProBookOblique.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 300;
+	src: url("./AvenirLTProLight.otf");
+}
+@font-face {
+	font-family: "Avenir LT Pro";
+	font-weight: 300;
+	font-style: italic;
+	src: url("./AvenirLTProLightOblique.otf");
+}
+@font-face {
+	font-family: "Silkscreen";
+	src: url("./Silkscreen-Regular.ttf");
+}
+@font-face {
+	font-family: "Silkscreen";
+	font-weight: bold;
+	src: url("./Silkscreen-Bold.ttf");
+}
+
+@font-face {
+	font-family: Pixels;
+	src: url(smallest_pixel-7.ttf) ;
+}
